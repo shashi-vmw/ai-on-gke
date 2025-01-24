@@ -1,3 +1,13 @@
+# TODO:
+
+1. Update terraform to create additional VPCs for TCPX
+2. Share OS iamge `dlvm-tcpd-cu120-677850957-ubuntu-2004-py310` from service account `72430299539-compute@developer.gserviceaccount.com` (make it globally public)
+3. update terraform to use a3-highgpu-8g (2 x nodes in nodepool)
+4. Update dockerfile to configure TCPX
+5. Update slurm to use TCPX
+6. Test with NCCL
+
+
 # Slurm on GKE
 
 ## Introduction
